@@ -1,7 +1,5 @@
 # Omni-DETR: Omni-Supervised Object Detection with Transformers
 
-This is the PyTorch implementation of the [Omni-DETR](https://assets.amazon.science/91/3c/ac87e7dd44789a62e03b2230e0ed/omni-detr-omni-supervised-object-detection-with-transformers.pdf) paper. It is a unified framework to use different types of weak annotations for object detection.
-
 If you use the code/model/results of this repository please cite:
 ```
 @inproceedings{wang2022omni,
@@ -14,7 +12,7 @@ If you use the code/model/results of this repository please cite:
 
 ## Installation
 
-First, install PyTorch and torchvision. We have tested on version of 1.8.1, but the other versions should also be working, e.g. no earlier than 1.5.1.
+First, install Paddlepaddle. We have tested on version of 2.0.0, but the other versions should also be working, e.g. no earlier than 1.5.1.
 
 Our implementation is partially based on [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR/). Please follow its [instruction](https://github.com/fundamentalvision/Deformable-DETR/blob/main/README.md) for other requirements.
 
