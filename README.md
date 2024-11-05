@@ -1,14 +1,5 @@
 # Omni-DETR: Omni-Supervised Object Detection with Transformers
 
-If you use the code/model/results of this repository please cite:
-```
-@inproceedings{wang2022omni,
-  author  = {Pei Wang and Zhaowei Cai and Hao Yang and Gurumurthy Swaminathan and Nuno Vasconcelos and Bernt Schiele and Stefano Soatto},
-  title   = {Omni-DETR: Omni-Supervised Object Detection with Transformers},
-  booktitle = {CVPR},
-  Year  = {2022}
-}
-```
 
 ## Installation
 
@@ -199,6 +190,3 @@ GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./configs/r50_ut_detr_voc07to12_sem
 1. Some of our experiments are on 800-pixels images by 8 * GPUs with 32G memory. If such memory is not affordable, please change the argument of ``pixels`` to 600. Then it can work on 8 * GPUs with 16G memory. 
 2. This code could have some minor accuracy differences from our paper due to some implementation changes after the paper submission.
 
-## License
-
-This project is under the Apache-2.0 license. See [LICENSE](LICENSE) for details.
