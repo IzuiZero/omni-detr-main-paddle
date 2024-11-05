@@ -187,6 +187,6 @@ GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./configs/r50_ut_detr_voc07to12_sem
 ```
 
 ### Note
-1. Some of our experiments are on 800-pixels images by 8 * GPUs with 32G memory. If such memory is not affordable, please change the argument of ``pixels`` to 600. Then it can work on 8 * GPUs with 16G memory. 
-2. This code could have some minor accuracy differences from our paper due to some implementation changes after the paper submission.
+ Some of our experiments are on 800-pixels images by 8 * GPUs with 32G memory. If such memory is not affordable, please change the argument of ``pixels`` to 600. Then it can work on 8 * GPUs with 16G memory. 
+
 
