@@ -5,7 +5,7 @@
 
 First, install Paddlepaddle. We have tested on version of 2.0.0, but the other versions should also be working, e.g. no earlier than 1.5.1.
 
-Our implementation is partially based on [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR/). Please follow its [instruction](https://github.com/fundamentalvision/Deformable-DETR/blob/main/README.md) for other requirements.
+Our implementation is partially based on [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR/). 
 
 ## Usage
 
